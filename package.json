@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-plugin-proof",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to add Proof to your site",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "keywords": [
+    "Proof",
+    "Use",
+    "Proof",
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Aaron Dack",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
