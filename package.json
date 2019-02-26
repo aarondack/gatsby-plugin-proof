@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-proof",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby plugin to add Proof to your site",
   "main": "index.js",
   "scripts": {
