@@ -5,7 +5,6 @@ exports.onRenderBody = ({ setPostBodyComponents }, { pixelId }) => {
     console.error("Proof pixelId must be a string");
   }
 
-  if (process.env.NODE_ENV === "production") {
     return setPostBodyComponents([
       <script
         async
@@ -15,6 +14,4 @@ exports.onRenderBody = ({ setPostBodyComponents }, { pixelId }) => {
         }}
       />
     ]);
-  }
-  return;
 };
